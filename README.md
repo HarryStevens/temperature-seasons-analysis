@@ -12,6 +12,7 @@ Table of contents:
   - [Averaging the grid](#averaging-the-grid)
   - [Calculating the seasonal temperature across the grid in each year](#calculating-the-seasonal-temperature-across-the-grid-in-each-year)
   - [Calculating the regression](#calculating-the-regression)
+  - [Drawing the maps](#drawing-the-maps)
   - [Calculating city data](#calculating-city-data)
 
 ## Installation
@@ -73,7 +74,6 @@ Below are the scripts that are run in order. You can set the start_year and end_
 python scripts/average-grid-annual.py # Averages the grid by year
 python scripts/average-grid-monthly.py # Averages the grid by year, month & hemisphere
 node scripts/average-grid-seasonal.js # Averages the monthly data by year and season
-python scripts/calculate-percentages.py # Calculate the percentage of the grid that fulfills certain criteria
 ```
 
 ### Calculating the seasonal temperature across the grid in each year
@@ -86,6 +86,12 @@ python scripts/annual-seasons.py # Calculate the seasonal temperature in each ye
 
 ```bash
 python scripts/make-regression-netcdf.py # Calculate the linear regression of year vs. temperature in each season (takes ~12 minutes)
+python scripts/calculate-percentage.py # Calculate the percentage of the grid that fulfills certain criteria
+```
+
+### Drawing the maps
+
+```bash
 python scripts/convert-to-v3.py # To use the scripts/data/output/seasonal_slopes.nc file with netcdfjs, you will need to convert it from V4 to V3
 node scripts/draw-rasters.js # Draw the rasters for map displays
 ```

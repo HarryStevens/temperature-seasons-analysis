@@ -1,0 +1,13 @@
+{
+    "earth_area": 660046.3327927452,
+    "winter_faster_area": 359227.49388351804,
+    "winter_faster_percentage": 54.42458749275645,
+    "both_negative_area": 2133.812461137979,
+    "both_negative_percentage": 0.32328222355384206,
+    "both_positive_area": 604880.8920477057,
+    "both_positive_percentage": 91.64218661565361,
+    "winter_positive_summer_negative_area": 25525.69757827622,
+    "winter_positive_summer_negative_percentage": 3.8672584499141966,
+    "summer_positive_winter_negative_area": 27505.93070568456,
+    "summer_positive_winter_negative_percentage": 4.167272710887318
+}
