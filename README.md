@@ -31,7 +31,8 @@ Download "ERA5 monthly averaged data on single levels from 1940 to present" from
 
 This project uses node and python, so you will need to install the dependencies for both.
 
-First, install the node modules:
+First, install the node modules.
+
 ```bash
 npm i # Install the node modules
 ```
@@ -42,7 +43,7 @@ If you get an error installing node-canvas, you may need to install its dependen
 brew install pkg-config cairo pango libpng jpeg giflib librsvg 
 ```
 
-Then, install the python dependencies:
+Then, create and activate a python virtual environment, and install the python dependencies.
 
 ``` bash
 python -m venv myenv # Create a Python Virtual Environment
