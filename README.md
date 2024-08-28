@@ -10,6 +10,7 @@ Table of contents:
   - [Install dependencies](#install-dependencies)
 - [Scripts](#scripts)
   - [Averaging the grid](#averaging-the-grid)
+  - [Averaging the poles](#averaging-the-poles)
   - [Calculating the seasonal temperature across the grid in each year](#calculating-the-seasonal-temperature-across-the-grid-in-each-year)
   - [Calculating the regression](#calculating-the-regression)
   - [Drawing the maps](#drawing-the-maps)
@@ -74,6 +75,13 @@ Below are the scripts that are run in order. You can set the start_year and end_
 python scripts/average-grid-annual.py # Averages the grid by year
 python scripts/average-grid-monthly.py # Averages the grid by year, month & hemisphere
 node scripts/average-grid-seasonal.js # Averages the monthly data by year and season
+```
+
+### Averaging the poles 
+
+```bash
+python scripts/average-poles-annual.py # Averages the poles by year
+python scripts/average-poles-monthly.py # Averages the poles by year, month & hemisphere
 ```
 
 ### Calculating the seasonal temperature across the grid in each year
