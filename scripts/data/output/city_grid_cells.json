@@ -1,0 +1,11 @@
+[
+    {
+        "id": "1",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "grid_distance": 0.03768076432345682,
+        "grid_index": 284104,
+        "grid_lat_index": 197,
+        "grid_lon_index": 424
+    }
+]
