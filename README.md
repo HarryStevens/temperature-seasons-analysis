@@ -73,6 +73,7 @@ Below are the scripts that are run in order. You can set the start_year and end_
 python scripts/average-grid-annual.py # Averages the grid by year
 python scripts/average-grid-monthly.py # Averages the grid by year, month & hemisphere
 node scripts/average-grid-seasonal.js # Averages the monthly data by year and season
+python scripts/calculate-percentages.py # Calculate the percentage of the grid that fulfills certain criteria
 ```
 
 ### Calculating the seasonal temperature across the grid in each year
