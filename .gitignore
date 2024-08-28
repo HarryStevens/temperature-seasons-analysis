@@ -12,5 +12,4 @@ node_modules/
 !/scripts/data/input/.*
 /scripts/data/output/year
 /scripts/data/output/city
-/scripts/data/output/city
 
