@@ -36,7 +36,7 @@ First, install the node modules:
 npm i # Install the node modules
 ```
 
-If you get an error installing node-canvas, you may need to install the dependencies for Cairo, Pango, Libpng, and Librsvg.
+If you get an error installing node-canvas, you may need to install its dependencies.
 
 ```bash 
 brew install pkg-config cairo pango libpng jpeg giflib librsvg 
