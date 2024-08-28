@@ -8,8 +8,9 @@ scripts/__pycache__/
 node_modules/
 
 # data
-/scripts/data/input
+/scripts/data/input/*
+!/scripts/data/input/.*
 /scripts/data/output/year
 /scripts/data/output/city
-/scripts/data/output/city-1974
+/scripts/data/output/city
 
