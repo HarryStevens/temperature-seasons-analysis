@@ -2,6 +2,18 @@
 
 Scripts for calculating seasonal temperature change using ERA5 monthly data.
 
+Table of contents:
+
+- [Installation](#installation)
+- [Setup](#setup)
+  - [Get the data](#get-the-data)
+  - [Install dependencies](#install-dependencies)
+- [Scripts](#scripts)
+  - [Averaging the grid](#averaging-the-grid)
+  - [Calculating the seasonal temperature across the grid in each year](#calculating-the-seasonal-temperature-across-the-grid-in-each-year)
+  - [Calculating the regression](#calculating-the-regression)
+  - [Calculating city data](#calculating-city-data)
+
 ## Installation
 
 ```bash
